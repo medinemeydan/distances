@@ -1,0 +1,8 @@
+points1=[5,1]
+points2=[4,1]
+def eulidionDistance(x1,x2,y1,y2)
+fark_x=x2-x1**2
+fark_y=y2-y1**2
+distances=(fark_x+fark_y)**(1/2)
+return distances
+
